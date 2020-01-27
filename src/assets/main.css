@@ -1,0 +1,75 @@
+html,body{
+    background-color: #f2f4f9;
+    height: 100%;
+}
+.f-form-control-solid {
+    background-color: #eef0f6;
+    border-color: #eef0f6;
+}
+.btn-outline-primary {
+    color: #0061f2;
+    border-color: #0061f2;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.sb-btn-icon {
+    padding: 0;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 100%;
+    flex-shrink: 0;
+    height: calc( (1rem * 1.5) + (0.375rem * 2) + (2px) ) !important;
+    width: calc( (1rem * 1.5) + (0.375rem * 2) + (2px) ) !important;
+}
+.f-dropdown-user .f-dropdown-user-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.f-dropdown-user .dropdown-menu .dropdown-header .f-dropdown-user-img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+
+.sb-dropdown-notifications .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 400px;
+    right: 0.15rem;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.content{
+    white-space: normal;
+}
+.sb-dropdown-notifications .dropdown-menu .sb-dropdown-notifications-header {
+    background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #FFFFFF;
+    /* border: 2px solid #0061f2; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.sb-dropdown-notifications .dropdown-menu .sb-dropdown-notifications-item {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e5ec;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(34, 39, 46, 0.15);
+    overflow: hidden;
+}
+
