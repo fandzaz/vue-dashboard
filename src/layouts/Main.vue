@@ -67,7 +67,7 @@
         </nav>
 
         <div class="wrapper">
-            <!-- Sidebar  -->
+            <!-- Sidebar  ss -->
             <nav id="sidebar" class="shadow d-none d-xl-block d-lg-none d-md-none ">
 
                 <ul class="list-unstyled components mt-3">
