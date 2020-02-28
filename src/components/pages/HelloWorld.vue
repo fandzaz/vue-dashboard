@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import Content from './widget/Content';
-import LineChart from './chart/LineChart';
+import Content from '@/components/widget/Content';
+import LineChart from '@/components/chart/LineChart';
 export default {
     components: {
         LineChart,

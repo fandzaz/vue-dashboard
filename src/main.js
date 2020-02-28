@@ -8,12 +8,19 @@ import router from './router'
 import './plugin/bootstrap';
 import './assets/main.css'
 import './assets/sidenav.css';
+import Core from './plugin/Core';
 //end-plugin
+
+Vue.use(Core,{
+  navBackground:'#448AFF',
+  navTextColor:'#fff'
+});
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  vueApp:'xxxxx',
   router,
   components: { App },
   template: '<App/>'
